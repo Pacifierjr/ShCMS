@@ -1,0 +1,1 @@
+<?php/** * @author		Momo * @copyright	2014 Jamiro Productions**/class loginAction{	private $gm;		public function __construct(&$gm){		$this->gm = $gm;	}		public function execute(){		?>		<script language ="JavaScript"> 		<!-- 		document.location.href = "index.php?msg=1"; 		// --> 		</script>		<?php		exit();	}}?>

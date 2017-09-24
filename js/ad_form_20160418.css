@@ -1,0 +1,65 @@
+﻿html,body,div,p,a,img,input strong,ol,ul,li,form{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;}
+ol,ul{list-style:none;}
+a{text-decoration:none;outline:medium none;}
+input,button,textarea{outline:none;}
+.clear{clear:both;font-size:1px;line-height:0;margin-top:0!important;visibility:hidden;width:1px;}
+.clearfix::before,.clearfix::after{content:" ";display:block;height:0;overflow:hidden;visibility:hidden;width:0;}
+.clearfix::after{clear:both;}.clearfix{}
+
+body{width:100%;height:1080px;font-size:14px;font-family:Arial,Helvetica,sans-serif;color:#000;overflow-x:hidden;background:url(../img/adregister20160418/bg.jpg) #fff center top no-repeat;}
+.wrap_loding{width:100%;height:100%;position:fixed;z-index:99;background:black;opacity:0.7;filter:alpha(opacity:70);}
+.load{width:80px;height:80px;position:absolute;left:50%;top:50%;margin:-40px 0 0 -40px;background:url(../img/adregister20160418/loading.gif) #000 0 0 no-repeat;}
+.flash{width:1920px;height:1080px;position:absolute;left:50%;top:0px;margin:0 0 0 -960px;}
+.container{width:1000px;position:relative;margin:0 auto;top:0;}
+.login_logo{width:417px;height:248px;position:absolute;right:293px;top:0px;}
+.login_logo img{width:417px;height:auto;}
+.login_way{width:500px;height:63px;position:absolute;right:220px;top:245px;color:#fff;padding:0 0 0 17px;font:normal 14px/48px Franklin Gothic Book;text-indent:20px;}
+.login_way p:first-child{margin-right:10px;}
+.login_way p{float:left;text-align:center;}
+.login_way p a{margin:0 3px;color:#ffff00;}
+.login_way .open_auth{width:44px;height:44px;margin:3px 3px 0 0;display:inline-block;}
+.login_way .ad_facebook_btn{background:url(../img/adregister20160418/way_logo.png) 0px 0px no-repeat;}
+.login_way .ad_facebook_btn:hover{background:url(../img/adregister20160418/way_logo.png) 0px -47px no-repeat;}
+.login_way .ad_twitter_btn{background:url(../img/adregister20160418/way_logo.png) -50px 0px no-repeat;}
+.login_way .ad_twitter_btn:hover{background:url(../img/adregister20160418/way_logo.png) -50px -47px no-repeat;}
+.login_way .ad_google_btn{background:url(../img/adregister20160418/way_logo.png) -98px 0px no-repeat;}
+.login_way a.ad_google_btn:hover{background:url(../img/adregister20160418/way_logo.png) -98px -47px no-repeat;}
+#reg_form{width:235px;height:280px;position:absolute;top:300px;left:380px;}
+#reg_form .in{position:relative;width:235px;height:45px;display:inline-block;margin-bottom:12px;}
+#reg_form .in input{width:236px;*width:183px;height:45px;background:url(../img/adregister20160418/input_bg.png) no-repeat;font:bolder 15px/45px Verdana,Arial,Helvetica,sans-serif;color:#fff;text-indent:50px;*text-indent:0;*padding-left:50px;}
+#reg_form input.text{border:none;}#reg_form input.text_true{border:none;}
+#reg_form input.focus{box-shadow:0 0 10px rgba(63,255,255,1);-webkit-box-shadow:0 0 10px rgba(63,255,255,1);-moz-box-shadow:0 0 10px rgba(63,255,255,1);}
+#reg_form input.text_false{border:none;}
+#reg_form .in input::-webkit-input-placeholder{color:#fff;}
+#reg_form .in input:-moz-placeholder{color:#fff;}
+#reg_form .in input::-moz-placeholder{color:#fff;}
+#reg_form .in input:-ms-input-placeholder{color:#fff;}
+#ie_placehoder{position:absolute;left:50px;color:#fff;font:bolder 17px/50px Arial;}
+#reg_form .icon{width:34px;height:34px;display:block;position:absolute;left:10px;*left:10px;top:10px;}
+#reg_form .user_bg{background:url(../img/adregister20160418/input_tubiao.png) 0 0 no-repeat;}
+#reg_form .email_bg{background:url(../img/adregister20160418/input_tubiao.png) 0 -67px no-repeat;}
+#reg_form .password_bg{background:url(../img/adregister20160418/input_tubiao.png) 0 -137px no-repeat;}
+#reg_form .con_password_bg{background:url(../img/adregister20160418/input_tubiao.png) 0 -207px no-repeat;}
+#reg_form em{width:305px;height:45px;position:absolute;left:215px;top:1px;color:#000;font:normal 12px/50px Arial;}
+#reg_form em .info_con{width:288px;height:45px;line-height:45px;background:url(../img/adregister20160418/tipbg.png) 0 0 no-repeat;padding-left:15px;text-align:left;position:absolute;left:25px;top:0px;}
+#reg_form em span{width:15px;height:15px;position:absolute;left:0;top:17px;}
+#reg_form em span.err{background:url(../img/adregister20160418/error_tip.png) 0 0 no-repeat;}
+#reg_form em span.ok{background:url(../img/adregister20160418/right_tip.png) 0 0 no-repeat;}
+.ad_cbox{height:50px;width:235px;position:absolute;left:380px;top:527px;}
+.ad_cbox .check_agree{color:#fff;font-family:'Franklin Gothic Book';font-size:14px;cursor:pointer;}
+.ad_cbox .check_agree .agreen{position:absolute;left:0px;top:2px;width:15px;height:15px;background:url(../img/adregister20160418/agreen.png) 0 0 no-repeat;}
+.ad_cbox .check_agree .agree_intro{margin-left:20px;line-height:15px;}
+.ad_cbox a{color:#ffff00;}
+.play_btn{width:287px;height:249px;border:0 none;cursor:pointer;position:absolute;top:569px;left:357px;z-index:2;}
+.footer_logo{width:208px;height:54px;position:absolute;right:-25px;top:857px;z-index:2;}
+.slogan{width:1000px;height:382px;position:absolute;top:680px;z-index:1;left:0px;}
+.mask{background:rgba(0,0,0,0) url(../img/adregister20160418/Popup/mark.png) repeat scroll 0 0;height:100%;left:0;position:fixed;top:0;width:100%;z-index:99;display:none;}
+.wrapPopup{height:auto;width:960px;position:absolute;top:50%;left:50%;margin-top:-350px;margin-left:-470px;background:url(../img/adregister20160418/Popup/landing-bj.png) no-repeat;z-index:100;}
+.ulWrap{}
+.wrapPopup .leftList{width:365px;height:auto;float:left;padding-right:67px;margin-left:47px;margin-top:30px;padding-bottom:30px;border-right:2px solid #3d3d3d;}
+.wrapPopup .leftList li{display:block;height:47px;margin-top:24px;}
+.wrapPopup .leftList li a{display:block;margin-top:24px;color:white;text-align:left;line-height:47px;font-size:24px;background:#036678;}
+.wrapPopup .leftList li a:hover{background:#38b8c6;}
+.wrapPopup .leftList li a.current{background:#38b8c6;}
+.wrapPopup .leftList li a img{vertical-align:middle;margin-right:60px;padding-left:20px;}
+.wrapPopup .EServer{width:365px;margin-bottom:40px;background:url(../img/adregister20160418/Popup/landing-03.gif) no-repeat;text-align:center;font-size:30px;line-height:47px;color:white;}.wrapPopup .USServer{width:365px;margin-bottom:40px;background:url(../img/adregister20160418/Popup/landing-04.gif) no-repeat;font-size:30px;line-height:47px;text-align:center;color:white;}.wrapPopup .rightList{width:365px;height:auto;float:right;margin-top:30px;margin-right:49px;}.wrapPopup .rightList li{display:block;height:47px;margin-top:24px;}.wrapPopup .rightList li a{display:block;margin-top:24px;color:white;text-align:left;line-height:47px;font-size:24px;background:#3a3375;}.wrapPopup .rightList li a:hover{background:#675ece;}.wrapPopup .rightList li a.current{background:#675ece;}.wrapPopup .rightList li a img{vertical-align:middle;margin-right:60px;padding-left:20px;}.confirmWrap{display:block;width:960px}.confirmWrap a.butTon{display:block;width:360px;height:72px;margin:55px auto;background:#626262;border:1px solid#86857d;cursor:pointer;text-align:center;line-height:72px;font-size:30px;color:white;}

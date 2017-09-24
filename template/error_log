@@ -1,0 +1,2 @@
+[23-Sep-2017 06:26:56 UTC] PHP Notice:  Undefined variable: pagename in /home/czenmdmt/public_html/template/head.php on line 23
+[23-Sep-2017 06:26:56 UTC] PHP Notice:  Undefined variable: SiteName in /home/czenmdmt/public_html/template/head.php on line 23

@@ -1,0 +1,7 @@
+*redstone
+*rail
+*dispenser
+*piston
+*detector
+*powered
+*pressure

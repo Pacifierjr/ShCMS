@@ -1,0 +1,95 @@
+﻿/* 
+    Document   : app_style
+    Created on : 2010-05-19, 12:28:32
+    Author     : Tomasz Wiącek
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+a, a:link {
+    font-family: sylfaen, TREBUCHET;
+    text-decoration: none;
+    color: black;
+    font-size: 10pt;    }
+a, a:visited {
+    font-family: sylfaen, TREBUCHET;
+    color: black;
+    text-decoration: none;
+    font-size: 10pt; }
+a:hover, a:focus {
+    font-family: sylfaen, TREBUCHET;
+    color: black;
+    text-decoration: underline;
+    font-size: 10pt; }
+
+#main {
+    width: 1300px;
+    height: 200px;
+    margin-top: 10px;
+    border-collapse: collapse;
+    border: 3px groove yellow;
+    font-family: sylfaen;
+    font-size: 10pt;
+}
+#panel_info {
+    height: 2em;
+    border-bottom: 3px groove yellow;
+    font-family: sylfaen;
+    font-size: 11pt;
+    font-style: normal;
+    height:20px;
+}
+#lewy_panel {
+    width: 200px;
+    height: 550px;
+    font: inherit;
+    border-right: 3px groove yellow;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 15px;
+}
+#prawy_panel {
+    width: 1000px;
+    height: 1550px;
+    font: inherit;
+    border: 1px ridge green;
+    text-align: justify;
+    vertical-align: top;
+    padding: 15px 20px;
+}
+
+/**************
+ * LEFT PANEL *
+ **************/
+div.naglowek {
+    font-size: 11pt;
+    text-align: center;
+    line-height: 2em;
+    border: 2px inset yellow;
+	background-image: url(catbg2.jpg);
+    background-color: #CEBF1B;
+}
+
+
+/***************
+ * RIGHT PANEL *
+ ***************/
+div.prawy_panel_zawartosc {
+
+    width: 120%;
+    font-family: sylfaen;
+    font-size: 15pt;
+}
+div.pojemnik {
+    font-family: sylfaen;
+    font-size: 10pt;
+}

@@ -1,0 +1,38 @@
+/* CSS Document */
+ 
+form, p, span { margin:0; padding:0; }
+  
+input { font:12px arial; }
+  
+input a { color:#0000FF; text-decoration:none; }
+  
+input a:hover { text-decoration:underline; }
+    
+#loginform { padding-top:188px; }
+  
+#loginform p { margin: 58px; }
+  
+#chatbox {
+    text-align:left;
+    color:white;
+    margin:0 auto;
+    height:370px;
+    width:244px;
+	margin-left:20px;
+	margin-top:5px;
+    overflow:auto;
+}
+  
+#usermsg {
+    width:170px; }
+  
+  
+.submitmsg:hover {
+background: transparent url('../chat/button_hover.png') no-repeat;
+}
+.error { color: #5E431E; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+  
+.msgln { margin:0 0 2px 0; }

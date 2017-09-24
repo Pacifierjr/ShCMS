@@ -1,0 +1,16 @@
+!minecraft:stone
+!minecraft:cobblestone
+!minecraft:grass
+!minecraft:dirt
+!minecraft:bedrock
+!minecraft:sand
+!minecraft:sandstone
+!minecraft:gravel
+!minecraft:log
+!minecraft:leaves
+!minecraft:leaves2
+!minecraft:tallgrass
+!minecraft:double_plant
+!minecraft:vine
+!minecraft:netherrack
+!minecraft:soul_sand

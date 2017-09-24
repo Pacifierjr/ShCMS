@@ -1,0 +1,1 @@
+<?php/** * @author		Trayne & eQuiNox * @copyright	2011 - 2017 Shaiya Productions**/Class loginAction{	private $gm;		public function __construct(&$gm){		$this->gm = $gm;	}		public function execute(){		?>		<script language ="JavaScript"> 		<!-- 		document.location.href = "index.php?msg=1"; 		// --> 		</script>		<?php		exit();	}}?>

@@ -1,0 +1,195 @@
+[24-Apr-2017 21:38:47 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php:85
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(27): Design::auf(NULL)
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('login', NULL)
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php on line 85
+[24-Apr-2017 22:12:13 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 55
+[24-Apr-2017 22:12:14 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 55
+[24-Apr-2017 22:12:14 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 55
+[24-Apr-2017 22:12:15 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 55
+[24-Apr-2017 22:12:50 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 55
+[24-Apr-2017 22:13:15 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:26 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:52 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:52 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:52 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:53 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:53 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:53 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:53 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:53 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:56 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:57 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:57 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:13:57 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 53
+[24-Apr-2017 22:14:09 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:10 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:10 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:10 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:10 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:14 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:15 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:15 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:15 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:15 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:16 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:16 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 54
+[24-Apr-2017 22:14:51 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 52
+[24-Apr-2017 22:14:52 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 52
+[24-Apr-2017 22:14:52 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 52
+[24-Apr-2017 22:14:52 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 52
+[24-Apr-2017 22:14:52 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 52
+[24-Apr-2017 22:18:23 Europe/Paris] PHP Parse error:  syntax error, unexpected '{' in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 41
+[24-Apr-2017 22:31:42 Europe/Paris] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in C:\Apache24\htdocs\admin-panel\lib\actions\tickets.class.php on line 103
+[24-Apr-2017 23:02:47 Europe/Paris] PHP Parse error:  syntax error, unexpected '.' in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 52
+[25-Apr-2017 15:58:27 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php:104
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): logsAction->execute()
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('logs', Object(User))
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 104
+[25-Apr-2017 15:59:28 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php:104
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): logsAction->execute()
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('logs', Object(User))
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 104
+[25-Apr-2017 16:00:06 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php:105
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): logsAction->execute()
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('logs', Object(User))
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 105
+[25-Apr-2017 16:00:17 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php:105
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): logsAction->execute()
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('logs', Object(User))
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 105
+[25-Apr-2017 16:01:43 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php:105
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): logsAction->execute()
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('logs', Object(User))
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\actions\logs.class.php on line 105
+[11-May-2017 21:14:12 Europe/Paris] PHP Parse error:  syntax error, unexpected '.' in C:\Apache24\htdocs\admin-panel\lib\util\Login.class.php on line 21
+[14-May-2017 14:19:50 Europe/Paris] PHP Fatal error:  Uncaught Error: Undefined class constant 'PARAM_BOTH' in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\actions\ip.class.php(21): UserUID::byUserIP('79.106.109.185')
+#1 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): ipAction->execute()
+#2 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('ip', Object(User))
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php on line 25
+[14-May-2017 14:19:59 Europe/Paris] PHP Fatal error:  Uncaught Error: Undefined class constant 'PARAM_BOTH' in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\actions\ip.class.php(21): UserUID::byUserIP('78.234.199.145')
+#1 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): ipAction->execute()
+#2 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('ip', Object(User))
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php on line 25
+[14-May-2017 14:20:06 Europe/Paris] PHP Fatal error:  Uncaught Error: Undefined class constant 'PARAM_BOTH' in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\actions\ip.class.php(21): UserUID::byUserIP('5.13.145.88')
+#1 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): ipAction->execute()
+#2 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('ip', Object(User))
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php on line 25
+[20-May-2017 16:15:32 Europe/Paris] PHP Fatal error:  Uncaught Error: Undefined class constant 'PARAM_BOTH' in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\actions\ip.class.php(21): UserUID::byUserIP('79.106.109.134')
+#1 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): ipAction->execute()
+#2 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('ip', Object(User))
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php on line 25
+[25-May-2017 12:54:32 Europe/Paris] PHP Fatal error:  Invalid handle returned. in C:\Apache24\htdocs\admin-panel\config.inc.php on line 26
+[25-May-2017 10:55:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or '{' in C:\Apache24\htdocs\admin-panel\config.inc.php on line 25
+[25-May-2017 10:55:45 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in C:\Apache24\htdocs\admin-panel\config.inc.php on line 26
+[25-May-2017 10:55:57 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{' in C:\Apache24\htdocs\admin-panel\config.inc.php on line 22
+[25-May-2017 10:56:09 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in C:\Apache24\htdocs\admin-panel\config.inc.php on line 23
+[25-May-2017 12:56:21 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'dbConn' not found in C:\Apache24\htdocs\admin-panel\lib\util\Login.class.php:68
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\core.functions.php(26): Login::check()
+#1 C:\Apache24\htdocs\admin-panel\main.php(11): require_once('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\admin-panel\index.php(8): require_once('C:\\Apache24\\htd...')
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Login.class.php on line 68
+[25-May-2017 12:56:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'dbConn' not found in C:\Apache24\htdocs\admin-panel\lib\util\Login.class.php:68
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\core.functions.php(26): Login::check()
+#1 C:\Apache24\htdocs\admin-panel\main.php(11): require_once('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\admin-panel\index.php(8): require_once('C:\\Apache24\\htd...')
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Login.class.php on line 68
+[25-May-2017 12:57:05 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'dbConn' not found in C:\Apache24\htdocs\admin-panel\lib\util\Login.class.php:68
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\core.functions.php(26): Login::check()
+#1 C:\Apache24\htdocs\admin-panel\main.php(11): require_once('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\admin-panel\index.php(8): require_once('C:\\Apache24\\htd...')
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Login.class.php on line 68
+[03-Jun-2017 23:54:27 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function getUserUID() on null in C:\Apache24\htdocs\admin-panel\lib\data\item\item.class.php:99
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\actions\inv.class.php(33): item->getUserUID()
+#1 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): invAction->execute()
+#2 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('inv', Object(User))
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\data\item\item.class.php on line 99
+[04-Jun-2017 11:40:49 Europe/Paris] PHP Fatal error:  Uncaught Error: Undefined class constant 'PARAM_BOTH' in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\actions\ip.class.php(21): UserUID::byUserIP('92.234.41.139')
+#1 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): ipAction->execute()
+#2 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('ip', Object(User))
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php on line 25
+[04-Jun-2017 11:41:13 Europe/Paris] PHP Fatal error:  Uncaught Error: Undefined class constant 'PARAM_BOTH' in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\actions\ip.class.php(21): UserUID::byUserIP('92.234.41.139')
+#1 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): ipAction->execute()
+#2 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('ip', Object(User))
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php on line 25
+[06-Jun-2017 20:45:35 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function execute() on string in C:\Apache24\htdocs\admin-panel\lib\actions\news.class.php:90
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): newsAction->execute()
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('news', Object(User))
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\actions\news.class.php on line 90
+[07-Jun-2017 21:02:10 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php:85
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(27): Design::auf(NULL)
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('login', NULL)
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php on line 85
+[07-Jun-2017 21:02:15 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php:85
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(27): Design::auf(NULL)
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('login', NULL)
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php on line 85
+[10-Jun-2017 21:23:39 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php:85
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(27): Design::auf(NULL)
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('login', NULL)
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php on line 85
+[17-Aug-2017 23:06:07 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php:85
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(27): Design::auf(NULL)
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('login', NULL)
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php on line 85
+[25-Aug-2017 10:01:42 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php:85
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(27): Design::auf(NULL)
+#1 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('login', NULL)
+#2 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\Design.class.php on line 85
+[25-Aug-2017 10:06:41 Europe/Paris] PHP Fatal error:  Uncaught Error: Undefined class constant 'PARAM_BOTH' in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php:25
+Stack trace:
+#0 C:\Apache24\htdocs\admin-panel\lib\actions\ip.class.php(21): UserUID::byUserIP('92.234.41.139')
+#1 C:\Apache24\htdocs\admin-panel\lib\util\Handle.class.php(29): ipAction->execute()
+#2 C:\Apache24\htdocs\admin-panel\index.php(11): Handle::handleAction('ip', Object(User))
+#3 {main}
+  thrown in C:\Apache24\htdocs\admin-panel\lib\util\UserUID.class.php on line 25
+[25-Aug-2017 10:32:52 Europe/Paris] PHP Fatal error:  Invalid handle returned. in C:\Apache24\htdocs\admin-panel\config.inc.php on line 26

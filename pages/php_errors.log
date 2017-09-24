@@ -1,0 +1,27 @@
+[24-May-2017 23:14:54 UTC] PHP Notice:  Undefined variable: arg in C:\Apache24\htdocs\pages\Account.php on line 3
+[24-May-2017 23:14:54 UTC] PHP Notice:  Undefined variable: uid in C:\Apache24\htdocs\pages\Account.php on line 4
+[24-May-2017 23:14:54 UTC] PHP Notice:  Undefined variable: CurrentUser in C:\Apache24\htdocs\pages\Account.php on line 7
+[24-May-2017 23:14:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function IsLoggedIn() on null in C:\Apache24\htdocs\pages\Account.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\pages\Account.php on line 7
+[25-May-2017 12:07:31 UTC] PHP Notice:  Undefined variable: arg in C:\Apache24\htdocs\pages\Account.php on line 3
+[25-May-2017 12:07:31 UTC] PHP Notice:  Undefined variable: uid in C:\Apache24\htdocs\pages\Account.php on line 4
+[25-May-2017 12:07:31 UTC] PHP Notice:  Undefined variable: CurrentUser in C:\Apache24\htdocs\pages\Account.php on line 7
+[25-May-2017 12:07:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function IsLoggedIn() on null in C:\Apache24\htdocs\pages\Account.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\pages\Account.php on line 7
+[06-Jul-2017 15:10:49 UTC] PHP Notice:  Undefined variable: isdbg in C:\Apache24\htdocs\pages\Home.php on line 8
+[06-Jul-2017 15:10:49 UTC] PHP Notice:  Undefined variable: conn in C:\Apache24\htdocs\pages\Home.php on line 11
+[06-Jul-2017 15:10:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Apache24\htdocs\pages\Home.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\pages\Home.php on line 11
+[06-Jul-2017 15:10:57 UTC] PHP Notice:  Undefined variable: isdbg in C:\Apache24\htdocs\pages\Home.php on line 8
+[06-Jul-2017 15:10:57 UTC] PHP Notice:  Undefined variable: conn in C:\Apache24\htdocs\pages\Home.php on line 11
+[06-Jul-2017 15:10:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Apache24\htdocs\pages\Home.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\pages\Home.php on line 11
+[19-Jul-2017 18:48:28 UTC] PHP Notice:  Undefined variable: status in C:\Apache24\htdocs\pages\DropBuilder.php on line 2

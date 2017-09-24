@@ -1,0 +1,14 @@
+Pour que le site n'ait pas automatiquement accès à un dossier, pensez à mettre un .htaccess en écrivant ceci à l’intérieur :
+
+<IfModule mod_rewrite.c>
+   RewriteEngine off
+</IfModule>
+
+
+Si vous modifiez un fichier twig, vous devez supprimer le contenu du dossier "app/Plugin/TwigView/tmp/views/"
+
+Les fichiers suivants ne sont pas nécessaires au bon fonctionnement du CMS :
+- ASTUCE.txt
+- LICENSE
+- README.md
+

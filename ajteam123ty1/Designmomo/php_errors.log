@@ -1,0 +1,10 @@
+[04-Jun-2017 17:29:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in C:\Apache24\htdocs\ajteam123ty1\Designmomo\goulouglou\db_connect.php:6
+Stack trace:
+#0 C:\Apache24\htdocs\ajteam123ty1\Designmomo\index.php(3): include()
+#1 {main}
+  thrown in C:\Apache24\htdocs\ajteam123ty1\Designmomo\goulouglou\db_connect.php on line 6
+[13-Jun-2017 20:15:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mssql_connect() in C:\Apache24\htdocs\ajteam123ty1\Designmomo\goulouglou\db_connect.php:6
+Stack trace:
+#0 C:\Apache24\htdocs\ajteam123ty1\Designmomo\index.php(3): include()
+#1 {main}
+  thrown in C:\Apache24\htdocs\ajteam123ty1\Designmomo\goulouglou\db_connect.php on line 6

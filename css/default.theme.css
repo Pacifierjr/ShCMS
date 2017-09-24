@@ -1,0 +1,241 @@
+/* ///////////////////
+     Main Containers 
+/////////////////// */
+#body{
+	background-image:url(images/backgrounds/shaiya_2.jpg);
+	background-position:top center;
+	background-size:cover;
+	color:rgba(255,255,255,1);
+	text-shadow:-1px 0 0 rgba(0,0,0,1),0 1px 0 rgba(0,0,0,1),1px 0 0 rgba(0,0,0,1),0 -1px 0 rgba(0,0,0,1),1px 1px 0 rgba(0,0,0,1),1px 1px 2px rgba(0,0,0,0.8),2px 2px 5px rgba(0,0,0,0.5);
+	font-weight:bolder;
+}
+#register_frame .err,
+#modal_popup .err{
+	font-size:18px;
+	font-weight:bolder;
+	color:rgba(235,0,0,1);
+	text-shadow:0 1px 1px rgba(0,0,0,0.8);
+	background-color:rgba(255,255,255,0.7);
+	box-shadow:0 0 5px rgba(255,255,255,0.9),0 0 15px rgba(255,255,255,0.7),0 0 25px rgba(255,255,255,0.45)
+}
+#register_frame{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border-radius:4px;
+	font-size:18px;
+	margin-top:10%;
+	background-color:rgba(255,255,255,0.6);
+	box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25),  inset 0 -15px 30px rgba(0,0,0,0.1), 5px 0 15px rgba(255,255,255,0.1),0 5px 15px rgba(55,55,55,0.1),-5px 0 15px rgba(255,255,255,0.1),0 -5px 15px rgba(255,255,255,0.1),0 0 25px rgba(255,255,255,0.2),0 0 45px rgba(255,255,255,0.55),0 0 70px rgba(255,255,255,0.35);
+	background-image:url(images/backgrounds/worldname_bg.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:320px 70px;
+}
+#register_frame .table_frame,
+#modal_popup .table_frame{
+    width: 500px;
+    margin-left: -500px;
+	background-color:rgba(0,0,0,0.6);
+	border-radius:4px;
+	box-shadow:inset 0 5px 10px rgba(0,0,0,0.6),inset 0 10px 20px rgba(0,0,0,0.26), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25),  inset 0 -15px 30px rgba(0,0,0,0.1);
+	border:1px inset rgba(0,0,0,0.3);
+	background-image:url(images/backgrounds/shine_mask_1.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#register_frame fieldset,
+#modal_popup fieldset{
+	border:none;
+	border-radius:4px;
+}
+#register_frame legend,
+#modal_popup legend{
+	display:block;
+	overflow:visible;
+	color:rgba(255,255,255,1);
+	font-size:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:bolder;
+	text-align:center;
+	text-shadow:-1px 0 0 rgba(0,0,0,0.2),0 1px 0 rgba(0,0,0,0.2),1px 0 0 rgba(0,0,0,0.2),0 -1px 0 rgba(0,0,0,0.2),1px 1px 0 rgba(0,0,0,0.5),1px 1px 2px rgba(0,0,0,0.8),2px 2px 5px rgba(0,0,0,0.5);
+}
+
+/* ///////////////////
+    Inputs 
+/////////////////// */
+#register_frame input[type=text],
+#register_frame input[type=password],
+#register_frame input[type=email],
+#register_frame input[type=number],
+#register_frame input[type=file],
+#register_frame select,
+#register_frame textarea,
+#modal_popup input[type=text],
+#modal_popup input[type=password],
+#modal_popup input[type=email],
+#modal_popup input[type=number],
+#modal_popup input[type=file],
+#modal_popup select,
+#modal_popup textarea{
+	-webkit-touch-callout: all;
+	-webkit-user-select: all;
+	-khtml-user-select: all;
+	-moz-user-select: all;
+	-ms-user-select: all;
+	user-select: all;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+	padding:12px 18px;
+	border-radius:4px;
+	font-weight:bolder;
+	background-color:rgba(225,225,225,0.9);
+	border-top:2px groove rgba(0,0,0,0.4);
+	border-right:2px groove rgba(0,0,0,0.1);
+	border-bottom:2px groove rgba(0,0,0,0.1);
+	border-left:2px groove rgba(0,0,0,0.4);
+	box-shadow:inset 0 5px 10px rgba(0,0,0,0.6),inset 0 10px 20px rgba(0,0,0,0.2);
+	color:rgb(151,151,151);
+	text-shadow:1px 1px 0 rgba(255,255,255,0.9);
+}
+#register_frame input[type=text]:focus,
+#register_frame input[type=password]:focus,
+#register_frame input[type=email]:focus,
+#register_frame input[type=number]:focus,
+#register_frame input[type=file]:focus,
+#register_frame select:focus,
+#register_frame textarea:focus,
+#modal_popup input[type=text]:focus,
+#modal_popup input[type=password]:focus,
+#modal_popup input[type=email]:focus,
+#modal_popup input[type=number]:focus,
+#modal_popup input[type=file]:focus,
+#modal_popup select:focus,
+#modal_popup textarea:focus{
+	background-color:rgba(240,240,240,0.9);
+	border-top:2px groove rgba(0,0,0,0.6);
+	border-right:2px groove rgba(0,0,0,0.3);
+	border-bottom:2px groove rgba(0,0,0,0.3);
+	border-left:2px groove rgba(0,0,0,0.6);
+	box-shadow:inset 0 1px 2px rgba(0,0,0,0.8),inset 0 2px 4px rgba(0,0,0,0.5);
+}
+#register_frame input[type=text]:disabled,
+#register_frame input[type=password]:disabled,
+#register_frame input[type=email]:disabled,
+#register_frame input[type=number]:disabled,
+#register_frame input[type=file]:disabled,
+#register_frame select:disabled,
+#register_frame textarea:disabled,
+#modal_popup input[type=text]:disabled,
+#modal_popup input[type=password]:disabled,
+#modal_popup input[type=email]:disabled,
+#modal_popup input[type=number]:disabled,
+#modal_popup input[type=file]:disabled,
+#modal_popup select:disabled,
+#modal_popup textarea:disabled{
+	background-color:rgba(255,255,255,0.9);
+	border-top:2px groove rgba(221,221,221,0.6);
+	border-right:2px groove rgba(221,221,221,0.3);
+	border-bottom:2px groove rgba(221,221,221,0.3);
+	border-left:2px groove rgba(221,221,221,0.6);
+	box-shadow:inset 0 1px 2px rgba(0,0,0,0.3),inset 0 2px 4px rgba(0,0,0,0.2);
+	text-shadow:1px 1px 0 rgba(255,255,255,0.9),-1px -1px rgba(255,255,255,0.2);
+}
+
+/* ///////////////////
+     Buttons
+/////////////////// */
+#register_frame input[type=submit]:not(:disabled), 
+#register_frame button:not(:disabled),
+#modal_popup input[type=submit]:not(:disabled), 
+#modal_popup button:not(:disabled){
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+	border-radius:4px;
+	color:rgb(51,51,51);
+	background-color:rgba(235,235,235,0.9);
+	outline:none;
+	border:none;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.9);
+	box-shadow: 0 2px 7px rgba(0,0,0,0.6), 0 5px 10px rgba(0,0,0,0.2),inset 0 -1px 5px rgba(0,0,0,0.8),inset 0 -2px 7px rgba(0,0,0,0.5);
+}
+#register_frame input[type=submit]:hover:not(:disabled), 
+#register_frame button:hover:not(:disabled),
+#modal_popup input[type=submit]:hover:not(:disabled), 
+#modal_popup button:hover:not(:disabled){
+	background-color:rgb(215,215,215);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 2px 6px rgba(0,0,0,0.5),inset 0 -2px 5px rgba(0,0,0,0.5),inset 0 -5px 10px rgba(0,0,0,0.3);
+}
+#register_frame input[type=submit]:active:not(:disabled), 
+#register_frame button:active:not(:disabled),
+#modal_popup input[type=submit]:active:not(:disabled), 
+#modal_popup button:active:not(:disabled){
+	background-color:rgb(195,195,195);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.8), 0 1px 1px rgba(0,0,0,0.5),inset 0px 0px 10px rgba(0,0,0,0.6),inset 0 -5px 15px rgba(0,0,0,0.2);
+}
+#register_frame input[type=submit]:disabled,
+#register_frame input[type=submit]:hover:disabled,
+#register_frame input[type=submit]:active:disabled, 
+#register_frame button:disabled,
+#register_frame button:hover:disabled,
+#register_frame button:active:disabled,
+#modal_popup input[type=submit]:disabled,
+#modal_popup input[type=submit]:hover:disabled,
+#modal_popup input[type=submit]:active:disabled, 
+#modal_popup button:disabled,
+#modal_popup button:hover:disabled,
+#modal_popup button:active:disabled{
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+	border-radius:4px;
+	background-color:rgba(185,185,185,0.9);
+	outline:none;
+	border:none;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.9);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 2px 6px rgba(0,0,0,0.5),inset 0 -2px 5px rgba(0,0,0,0.5),inset 0 -5px 10px rgba(0,0,0,0.3);
+}
+
+/* ///////////////////
+     Modal Window 
+/////////////////// */
+
+#modal_popup #modal_container{
+	color:rgba(255,255,255,1);
+	text-shadow:-1px 0 0 rgba(0,0,0,1),0 1px 0 rgba(0,0,0,1),1px 0 0 rgba(0,0,0,1),0 -1px 0 rgba(0,0,0,1),1px 1px 0 rgba(0,0,0,1),1px 1px 2px rgba(0,0,0,0.8),2px 2px 5px rgba(0,0,0,0.5);
+}
+#modal_popup #modal_container #modal_close{
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+	color:rgba(255,255,255,1);
+	text-shadow:-1px 0 0 rgba(0,0,0,1),0 1px 0 rgba(0,0,0,1),1px 0 0 rgba(0,0,0,1),0 -1px 0 rgba(0,0,0,1),1px 1px 0 rgba(0,0,0,1),1px 1px 2px rgba(0,0,0,0.8),2px 2px 5px rgba(0,0,0,0.5);
+	border-radius:4px;
+	box-shadow: inset 0 1px rgba(255,100,100,0.3), inset 0 5px rgba(255,200,200,0.2), inset 0 5px 5px rgba(255,0,0,0.25),  inset 0 -10px 20px rgba(0,0,0,0.1), 2px 0 5px rgba(255,0,0,0.6),0 2px 5px rgba(235,0,0,0.6),-2px 0 5px rgba(235,0,0,0.6),0 -2px 5px rgba(235,0,0,0.6),0 0 10px rgba(235,0,0,0.8),0 0 15px rgba(235,0,0,0.55),0 0 30px rgba(155,0,0,0.35);
+}
+#modal_popup #modal_container #modal_close:hover{
+	box-shadow:5px 0 15px rgba(255,0,0,0.6),0 5px 15px rgba(255,0,0,0.6),-5px 0 15px rgba(255,0,0,0.6),0 -5px 15px rgba(255,0,0,0.6),0 0 25px rgba(255,0,0,0.8),0 0 45px rgba(255,0,0,0.55),0 0 70px rgba(255,0,0,0.35);
+}
+#modal_popup #modal_container #modal_content{
+	border-radius:4px;
+	box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25),  inset 0 -15px 30px rgba(0,0,0,0.1), 5px 0 15px rgba(255,255,255,0.1),0 5px 15px rgba(55,55,55,0.1),-5px 0 15px rgba(255,255,255,0.1),0 -5px 15px rgba(255,255,255,0.1),0 0 25px rgba(255,255,255,0.2),0 0 45px rgba(255,255,255,0.55),0 0 70px rgba(255,255,255,0.35);
+	background-image:url(images/backgrounds/worldname_bg.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:320px 70px;
+}

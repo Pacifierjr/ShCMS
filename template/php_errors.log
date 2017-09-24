@@ -1,0 +1,16 @@
+[22-Jul-2017 05:39:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function check_server_status() in C:\Apache24\htdocs\template\top-menu.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\template\top-menu.php on line 2
+[23-Jul-2017 00:16:19 UTC] PHP Notice:  Undefined variable: SlidesArray in C:\Apache24\htdocs\template\slider.php on line 66
+[23-Jul-2017 00:16:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\template\slider.php on line 66
+[23-Jul-2017 04:01:11 UTC] PHP Notice:  Undefined variable: uid in C:\Apache24\htdocs\template\right-bar.php on line 31
+[23-Jul-2017 04:01:11 UTC] PHP Warning:  file_get_contents(LeaderOfTheWeek.txt): failed to open stream: No such file or directory in C:\Apache24\htdocs\template\right-bar.php on line 91
+[23-Jul-2017 04:01:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Account' not found in C:\Apache24\htdocs\template\right-bar.php:92
+Stack trace:
+#0 {main}
+  thrown in C:\Apache24\htdocs\template\right-bar.php on line 92
+[23-Jul-2017 19:11:06 UTC] PHP Notice:  Undefined variable: SlidesArray in C:\Apache24\htdocs\template\slider.php on line 66
+[23-Jul-2017 19:11:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\template\slider.php on line 66
+[28-Jul-2017 16:15:11 UTC] PHP Notice:  Undefined variable: pagename in C:\Apache24\htdocs\template\head.php on line 23
+[28-Jul-2017 16:15:11 UTC] PHP Notice:  Undefined variable: SiteName in C:\Apache24\htdocs\template\head.php on line 23
